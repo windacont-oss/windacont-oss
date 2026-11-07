@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 210" width="1120" height="210" role="img" aria-label="Stats">
+  <title>Stats of windacont-oss</title>
+  <defs>
+    <linearGradient id="scard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0d1a"/>
+      <stop offset="1" stop-color="#0a0a14"/>
+    </linearGradient>
+    <linearGradient id="saccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="210" rx="18" fill="url(#scard)" stroke="#1f2430"/>
+  <rect x="0" y="0" width="1120" height="3" rx="1.5" fill="url(#saccent)"/>
+  <text x="36" y="52" font-family="'Cascadia Code','Consolas',monospace" font-size="19" fill="#22d3ee">⟩ stats</text>
+  <text x="1084" y="52" text-anchor="end" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#4b5563">@windacont-oss</text>
+  
+  <g>
+    <rect x="30" y="82" width="250" height="96" rx="14" fill="#101020" stroke="#1f2430"/>
+    <text x="54" y="130" font-family="'Segoe UI Black','Arial Black',sans-serif" font-weight="900"
+      font-size="34" fill="#22d3ee">5</text>
+    <text x="54" y="158" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#6b7280">repositories</text>
+  </g>
+  
+  <g>
+    <rect x="293" y="82" width="250" height="96" rx="14" fill="#101020" stroke="#1f2430"/>
+    <text x="317" y="130" font-family="'Segoe UI Black','Arial Black',sans-serif" font-weight="900"
+      font-size="34" fill="#a78bfa">0</text>
+    <text x="317" y="158" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#6b7280">stars earned</text>
+  </g>
+  
+  <g>
+    <rect x="556" y="82" width="250" height="96" rx="14" fill="#101020" stroke="#1f2430"/>
+    <text x="580" y="130" font-family="'Segoe UI Black','Arial Black',sans-serif" font-weight="900"
+      font-size="34" fill="#f472b6">0</text>
+    <text x="580" y="158" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#6b7280">followers</text>
+  </g>
+  
+  <g>
+    <rect x="819" y="82" width="250" height="96" rx="14" fill="#101020" stroke="#1f2430"/>
+    <text x="843" y="130" font-family="'Segoe UI Black','Arial Black',sans-serif" font-weight="900"
+      font-size="34" fill="#34d399">GDScript</text>
+    <text x="843" y="158" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#6b7280">top language</text>
+  </g>
+</svg>

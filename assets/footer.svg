@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 160" width="1600" height="160" role="img" aria-label="MAN1K3N footer">
+  <title>MAN1K3N</title>
+  <defs>
+    <linearGradient id="fw1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="fw2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="ftxt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <style>
+      .w1 { fill: url(#fw1); animation: slide 9s linear infinite; }
+      .w2 { fill: url(#fw2); animation: slide 14s linear infinite reverse; }
+      @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-800px); } }
+      @media (prefers-reduced-motion: reduce) { .w1, .w2 { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1600" height="160" fill="#07070d"/>
+  <path class="w2" transform="translate(0,30)" d="M0 96 C 66.7 56, 133.3 56, 200 96 C 266.7 136, 333.3 136, 400 96 C 466.7 56, 533.3 56, 600 96 C 666.7 136, 733.3 136, 800 96 C 866.7 56, 933.3 56, 1000 96 C 1066.7 136, 1133.3 136, 1200 96 C 1266.7 56, 1333.3 56, 1400 96 C 1466.7 136, 1533.3 136, 1600 96 C 1666.7 56, 1733.3 56, 1800 96 C 1866.7 136, 1933.3 136, 2000 96 C 2066.7 56, 2133.3 56, 2200 96 C 2266.7 136, 2333.3 136, 2400 96 V 160 H 0 Z"/>
+  <path class="w1" transform="translate(0,0)" d="M0 96 C 66.7 56, 133.3 56, 200 96 C 266.7 136, 333.3 136, 400 96 C 466.7 56, 533.3 56, 600 96 C 666.7 136, 733.3 136, 800 96 C 866.7 56, 933.3 56, 1000 96 C 1066.7 136, 1133.3 136, 1200 96 C 1266.7 56, 1333.3 56, 1400 96 C 1466.7 136, 1533.3 136, 1600 96 C 1666.7 56, 1733.3 56, 1800 96 C 1866.7 136, 1933.3 136, 2000 96 C 2066.7 56, 2133.3 56, 2200 96 C 2266.7 136, 2333.3 136, 2400 96 V 160 H 0 Z"/>
+  <text x="800" y="76" text-anchor="middle" font-family="'Segoe UI Black','Arial Black',Impact,sans-serif"
+    font-weight="900" font-size="40" letter-spacing="8" fill="url(#ftxt)">MAN1K3N</text>
+  <text x="800" y="108" text-anchor="middle" font-family="'Cascadia Code','Consolas',monospace"
+    font-size="13" fill="#9ca3af">// build · break · repeat</text>
+</svg>

@@ -26,9 +26,6 @@
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
-    <filter id="blur12" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="12"/>
-    </filter>
     <style>
       .glow  { animation: drift 9s ease-in-out infinite; }
       .glow2 { animation: drift 11s ease-in-out infinite reverse; }
@@ -79,7 +76,7 @@
   <ellipse class="glow2" cx="1040" cy="280" rx="420" ry="230" fill="url(#glowM)"/>
 
   <text x="64" y="52" font-family="'Cascadia Code','Consolas',monospace" font-size="15" fill="#4b5563">root@man1k3n:~$ whoami</text>
-  <text x="1216" y="52" text-anchor="end" font-family="'Cascadia Code','Consolas',monospace" font-size="15" fill="#4b5563">game dev / unity / c#</text>
+  <text x="1216" y="52" text-anchor="end" font-family="'Cascadia Code','Consolas',monospace" font-size="15" fill="#4b5563">game dev / godot / unity</text>
 
   <g class="jit">
     <text x="640" y="196" text-anchor="middle" font-family="'Segoe UI Black','Arial Black',Impact,sans-serif"
@@ -92,7 +89,7 @@
 
   <rect class="uline" x="380" y="228" width="520" height="2" fill="url(#line)"/>
 
-  <text class="sub" x="640" y="268" text-anchor="middle" font-family="'Cascadia Code','Consolas',monospace" font-size="17" fill="#9ca3af">gameplay programmer · unity · c# · c++ · reverse engineering</text>
+  <text class="sub" x="640" y="268" text-anchor="middle" font-family="'Cascadia Code','Consolas',monospace" font-size="17" fill="#9ca3af">game developer · godot · gdscript · unity</text>
 
   <g class="dot">
     <circle cx="468" cy="296" r="4" fill="#22d3ee"/>
