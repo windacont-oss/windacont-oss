@@ -29,7 +29,7 @@ jobs:
       - name: Generate language and stats cards
         run: node tools/generate-stats.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
         run: |
