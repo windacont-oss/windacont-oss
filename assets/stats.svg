@@ -33,7 +33,7 @@
   <g>
     <rect x="556" y="82" width="250" height="96" rx="14" fill="#101020" stroke="#1f2430"/>
     <text x="580" y="130" font-family="'Segoe UI Black','Arial Black',sans-serif" font-weight="900"
-      font-size="34" fill="#f472b6">0</text>
+      font-size="34" fill="#f472b6">1</text>
     <text x="580" y="158" font-family="'Cascadia Code','Consolas',monospace" font-size="14" fill="#6b7280">followers</text>
   </g>
   
